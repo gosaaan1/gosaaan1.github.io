@@ -1,10 +1,11 @@
 site:
   title: My Antora Site
   url: https://gosaaan1.github.io
+  start_page: project-name::index.adoc
 content:
   sources:
     - url: .
-      start_path: docs
+      branches: HEAD
 ui:
   bundle:
     url: https://github.com/antora/antora-ui-default/releases/download/v8.0.0/ui-bundle.zip
