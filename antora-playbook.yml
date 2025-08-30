@@ -1,0 +1,11 @@
+site:
+  title: My Antora Site
+  url: https://gosaaan1.github.io
+content:
+  sources:
+    - url: .
+      start_path: docs
+ui:
+  bundle:
+    url: https://github.com/antora/antora-ui-default/releases/download/v8.0.0/ui-bundle.zip
+    snapshot: true
