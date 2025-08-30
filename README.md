@@ -1,6 +1,6 @@
 # gosaaan1.github.io
 
-## Posts
+## 過去に投稿したもの
 
 <ul>
   {% for post in site.posts %}
