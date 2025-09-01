@@ -1,5 +1,5 @@
-name: project-name
+name: hokulea-garage
 version: ~
-title: Project Name
+title: Hokulea Garage
 nav:
 - modules/ROOT/nav.adoc
