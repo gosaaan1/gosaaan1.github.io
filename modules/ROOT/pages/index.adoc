@@ -1,1 +1,5 @@
+---
+title: ごうさーーーんのレシピ
+---
+
 this is index page
