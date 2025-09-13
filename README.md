@@ -4,3 +4,9 @@
 
 - [GitHub Pages](https://docs.github.com/ja/pages)
 - [Publish to GitHub Pages](https://docs.antora.org/antora/latest/publish-to-github-pages/)
+
+## ローカル開発
+
+- DevContainerを開きます。
+- `npm ci` を実行します。
+- ローカルでサイトをビルドするには、`npx antora antora-playbook.yml`を実行します。
