@@ -1,1 +1,1 @@
-* xref:new-page.adoc[]
+* xref:zed.adoc[Zed（テキストエディター）を使う]
