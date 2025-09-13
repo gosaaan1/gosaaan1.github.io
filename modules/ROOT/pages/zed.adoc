@@ -1,4 +1,4 @@
-= Zed (コードエディター)を使う
+= Zed
 :description: Zedは軽量・高速をモットーにしているコードエディターです。VSCodeでVIM拡張機能を使っている派には向いているかも。Windowsはインストーラーが提供されるまで様子見かな。
 :keyword: Zed, コードエディター, 軽量, 高速, VSCode, VIM拡張機能, Windows
 
@@ -12,11 +12,13 @@ Windowsのインストーラーは近日提供されるようです。使える�
 
 == インストール
 
-- MacOS, Linuxユーザーは https://zed.dev/download[インストールパッケージ] が提供されているので、インストールしてください。
+- MacOS, Linuxユーザーは https://zed.dev/download[インストールパッケージ] が提供されています。
 - インストーラーが待てないWindowsユーザーは https://zed.dev/docs/windows[Zed on Windows] を参照してください。
 
-== 一緒に入れておきたい DevPod
+== DevPod
 
-Python, NodejSなどプログラミング言語の実行環境の管理はとても面倒です。
+https://devpod.sh
 
-DevPod（開発コンテナ）を使ってプロジェクトの実行環境をシンプルかつ安全に管理しておきましょう。
+開発環境をコンテナで管理するために使います。
+
+Python, NodejSなどプログラミング言語の実行環境の管理はとても面倒なので、コンテナを使ってシンプルかつ安全に管理しましょう。

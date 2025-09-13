@@ -1,1 +1,1 @@
-* xref:zed.adoc[Zed（テキストエディター）を使う]
+* xref:zed.adoc[Zed]
