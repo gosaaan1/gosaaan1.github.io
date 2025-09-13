@@ -1,5 +1,5 @@
 site:
-  title: My Antora Site
+  title: Gosaaan's Recipe
   url: https://gosaaan1.github.io
   start_page: local-project::index.adoc
 content:
