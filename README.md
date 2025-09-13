@@ -1,5 +1,9 @@
 # It's gosaaan1.github.io
 
+## このリポジトリのサイト
+
+- https://gosaaan1.github.io
+
 ## 参考
 
 - [GitHub Pages](https://docs.github.com/ja/pages)
