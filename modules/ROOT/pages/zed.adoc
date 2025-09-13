@@ -15,10 +15,4 @@ Windowsのインストーラーは近日提供されるようです。使える�
 - MacOS, Linuxユーザーは https://zed.dev/download[インストールパッケージ] が提供されています。
 - インストーラーが待てないWindowsユーザーは https://zed.dev/docs/windows[Zed on Windows] を参照してください。
 
-== DevPod
-
-https://devpod.sh
-
-開発環境をコンテナで管理するために使います。
-
-Python, NodejSなどプログラミング言語の実行環境の管理はとても面倒なので、コンテナを使ってシンプルかつ安全に管理しましょう。
+開発コンテナを使いたいときは xref:devpod.adoc も参照してください。
