@@ -2,6 +2,9 @@ site:
   title: Gosaaan's Recipe
   url: https://gosaaan1.github.io
   start_page: local-project::index.adoc
+antora:
+  extensions:
+    - require: ./lib/rippo-extension.js
 content:
   sources:
     - url: .
