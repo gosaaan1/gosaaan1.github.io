@@ -11,5 +11,5 @@ content:
       start_path: .
 ui:
   bundle:
-    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://github.com/gosaaan1/rippo-ui-bundle/releases/download/latest/ui-bundle.zip
     snapshot: true
