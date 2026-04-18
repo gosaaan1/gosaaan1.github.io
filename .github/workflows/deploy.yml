@@ -17,8 +17,16 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-    - name: Checkout repository
+    - name: Checkout site repository
       uses: actions/checkout@v4
+      with:
+        path: site
+    - name: Checkout rippo-stories (private content source)
+      uses: actions/checkout@v4
+      with:
+        repository: gosaaan1/rippo-stories
+        token: ${{ secrets.RIPPO_STORIES_PAT }}
+        path: rippo-stories
     - name: Configure Pages
       uses: actions/configure-pages@v5
     - name: Install Node.js
@@ -26,15 +34,17 @@ jobs:
       with:
         node-version: '18'
     - name: Install Antora
+      working-directory: site
       run: npm i antora
     - name: Generate Site
+      working-directory: site
       run: npx antora antora-playbook.yml
     - name: Add .nojekyll file
-      run: touch build/site/.nojekyll
+      run: touch site/build/site/.nojekyll
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v3
       with:
-        path: build/site
+        path: site/build/site
     - name: Deploy to GitHub Pages
       id: deployment
       uses: actions/deploy-pages@v4

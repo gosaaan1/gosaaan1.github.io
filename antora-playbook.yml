@@ -6,6 +6,9 @@ content:
   sources:
     - url: .
       branches: HEAD
+    - url: ../rippo-stories
+      branches: HEAD
+      start_path: .
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
